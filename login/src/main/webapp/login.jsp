@@ -43,7 +43,7 @@
 </head>
 <body>
 
-<%-- Hiển thị alert nếu có lỗi và form đã submit --%>
+
 <% if (alertMessage != null) { %>
     <script>
         alert("<%= alertMessage %>");
@@ -66,7 +66,7 @@
                    placeholder="Nhập mật khẩu">
         </div>
 
-        <%-- Hidden input để xác định form đã được submit --%>
+        
         <input type="hidden" name="isSubmitted" value="true"/>
 
         <button type="submit" class="btn btn-primary btn-block">Đăng nhập</button>
